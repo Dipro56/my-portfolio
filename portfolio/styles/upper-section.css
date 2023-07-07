@@ -1,0 +1,10 @@
+.upper-section-bg {
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(
+    25deg,
+    rgba(28, 14, 14, 0.963),
+    rgb(7, 34, 106)
+  );
+
+}
