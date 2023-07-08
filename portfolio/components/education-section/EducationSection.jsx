@@ -4,14 +4,15 @@ import React from 'react';
 export const EducationSection = () => {
   return (
     <>
+      <div className='flex justify-center text-3xl font-bold '>Academic Background</div>
       <div className="education-section container mx-auto about-me-section shadow-xl">
-        <div className="session-dev">
+        <div className="session-dev slide-in">
           <p className="text-2xl text-center">2018-2022</p>
           <p className="text-3xl font-semibold text-center mt-2">
             Bachelor's Degree
           </p>
         </div>
-        <div className="details-dev">
+        <div className="details-dev slide-in">
           <p className="text-3xl text-start ">
             Bachelor of Science in Software Engineering
           </p>
@@ -31,19 +32,19 @@ export const EducationSection = () => {
             </li>
           </ul>
         </div>
-        <div className="insitution-image-div">
+        <div className="insitution-image-div ">
           <Image height={150} width={150} src={'/assets/IUT.png'} />
         </div>
       </div>
 
-      <div className="education-section container mx-auto about-me-section shadow-xl">
-        <div className="session-dev">
+      <div className="education-section container mx-auto about-me-section shadow-xl ">
+        <div className="session-dev slide-in">
           <p className="text-2xl text-center">2014-2016</p>
           <p className="text-3xl font-semibold text-center mt-2">
             Higher Secondary
           </p>
         </div>
-        <div className="details-dev">
+        <div className="details-dev slide-in">
           <p className="text-3xl text-start ">
             Higher-Secondary School Certificate (HSC)
           </p>
@@ -66,11 +67,11 @@ export const EducationSection = () => {
       </div>
 
       <div className="education-section container mx-auto about-me-section shadow-xl">
-        <div className="session-dev">
+        <div className="session-dev slide-in">
           <p className="text-2xl text-center">2012-2014</p>
           <p className="text-3xl font-semibold text-center mt-2">Secondary</p>
         </div>
-        <div className="details-dev">
+        <div className="details-dev slide-in">
           <p className="text-3xl text-start ">
             Secondary School Certificate (SSC)
           </p>

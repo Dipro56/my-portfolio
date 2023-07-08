@@ -3,6 +3,10 @@ import '../styles/navbar.css';
 import '../styles/upper-section.css';
 import '../styles/about-me-section.css';
 import '../styles/education-section.css';
+import '../styles/work-experience-section.css';
+import '../styles/skill-section.css';
+import '../styles/project-section.css';
+import '../styles/footer.css';
 import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {

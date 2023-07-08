@@ -6,14 +6,9 @@ const AboutMeSection = () => {
       <div className="about-me-div">
         <p className="text-3xl font-bold ">About me</p>
         <p className="text-xl mt-8 font-normal">
-          Former Software Engineer at the Samsung R & D Institute, Bangladesh.
-          Besides, I have worked as a short course instructor (Web programming,
-          Web design, MS Office) at Institute of Information Technology,
-          University of Dhaka. I have completed my BSc and MSc in Software
-          Engineering from IIT, University of Dhaka.
+          I am always enthusiastic about learning new things. I always try to follow the best programming practices and provide a stable solution for any problem that i solve. Currently working as a Software Engineer (Front-end). Areas of my expertise are web and mobile application development with framework related to Javascript specially Next.js, React native framework and React library.
           <br />
-          <br />I have previously worked as a software engineer intern at
-          Datasoft Systems Bangladesh Limited.
+          <br />Apart from this you are always welcome to poke me on having conversation about football, cricket and music.
         </p>
       </div>
       <div className="basic-info-div">
