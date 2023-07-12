@@ -8,6 +8,7 @@ import '../styles/skill-section.css';
 import '../styles/project-section.css';
 import '../styles/footer.css';
 import Head from 'next/head';
+import Header from '@/components/header/Header';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&display=swap"
           rel="stylesheet"
         ></link>
+        <link rel="icon" href="/ssbd.png" />
       </Head>
       <Component {...pageProps} />
     </>

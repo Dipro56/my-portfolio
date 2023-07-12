@@ -3,11 +3,11 @@ import React from 'react';
 
 export const WorkExperienceSection = () => {
   return (
-    <>
-      <div className="flex justify-center text-3xl font-bold mt-28">
+    <div id='experience'>
+      <div  className="flex justify-center text-3xl font-bold mt-28 text-color-black">
         Work Experience
       </div>
-      <div className="work-experience-section container mx-auto about-me-section shadow-xl ">
+      <div  className="work-experience-section container mx-auto about-me-section shadow-xl ">
         <div className="insitution-image-div  slide-in">
           <Image height={150} width={150} src={'/assets/gakk.jpg'} />
         </div>
@@ -56,7 +56,7 @@ export const WorkExperienceSection = () => {
             <p className="text-md text-start ">Kamrul Hasan Ananda</p>
             <p className="text-md text-start ">Frontend team lead (Shadhin) </p>
             <p className="text-md text-start ">
-              Mail: <span>anandasadhinmusic@gmail.com</span>
+              Mail: <span><a href='mailto:anandasadhinmusic@gmail.com'>anandasadhinmusic@gmail.com</a></span>
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export const WorkExperienceSection = () => {
             <p className="text-md text-start ">S M Mahmudul Hasan</p>
             <p className="text-md text-start ">Chairman</p>
             <p className="text-md text-start ">
-              Mail: <span>shohan.cse.sust@gmail.com</span>
+              Mail: <span><a href='mailto:shohan.cse.sust@gmail.com'>shohan.cse.sust@gmail.com</a></span>
             </p>
           </div>
         </div>
@@ -157,6 +157,6 @@ export const WorkExperienceSection = () => {
           <p className="text-xl text-center">February 2021 - June 2022</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };

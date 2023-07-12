@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import Link from 'next/link';
 
 const UpperSection = () => {
   return (
@@ -18,24 +19,46 @@ const UpperSection = () => {
         />
       </div>
       <div className="name-profession-section">
-        <p className="text-5xl font-semibold">Sadat Shahriar Bari</p>
+        <p className="text-3xl xl:text-5xllg:text-5xl md:text-4xl sm:text-4xl font-semibold">
+          Sadat Shahriar Bari
+        </p>
       </div>
       <div className="name-profession-section">
-        <p className="text-2xl font-semibold">Software Engineer | Learner</p>
+        <p className="lg:text-2xl sm:text-xl font-semibold">
+          Software Engineer | Learner
+        </p>
       </div>
+
       <div className="button-div">
-        <button className="cv-button text-md">Download CV</button>
+        <Link href="/Sadat_Shahriar__CV.pdf" target="_blank">
+          <button className="cv-button text-md mr-2">View CV</button>
+        </Link>
+
+        <Link href="/Sadat_Shahriar__CV.pdf" target="_blank" download>
+          <button className="cv-button text-md ml-2">Download CV</button>
+        </Link>
       </div>
+
       <div className="round-button-div">
-        <button className="round-button">
-          <FaFacebookF className="custom-icon-size" />
-        </button>
-        <button className="round-button">
-          <FaLinkedinIn className="custom-icon-size" />
-        </button>
-        <button className="round-button">
-          <FaGithub className="custom-icon-size" />
-        </button>
+        <Link href={'https://web.facebook.com/shahriar.dipro'} target="_blank">
+          <button className="round-button">
+            <FaFacebookF className="custom-icon-size" />
+          </button>
+        </Link>
+        <Link
+          href={'https://www.linkedin.com/in/sadat-shahriar-bari/'}
+          target="_blank"
+        >
+          <button className="round-button">
+            <FaLinkedinIn className="custom-icon-size" />
+          </button>
+        </Link>
+
+        <Link href={'https://github.com/Dipro56'} target="_blank">
+          <button className="round-button">
+            <FaGithub className="custom-icon-size" />
+          </button>
+        </Link>
       </div>
     </div>
   );

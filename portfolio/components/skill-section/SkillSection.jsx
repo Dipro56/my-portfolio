@@ -4,7 +4,7 @@ const SkillSection = () => {
   
   return (
     <>
-      <div className="flex justify-center text-3xl font-bold mt-28">Skills</div>
+      <div id='skills' className="flex  justify-center text-3xl font-bold mt-28 text-color-black">Skills</div>
       <div className="work-experience-section container mx-auto about-me-section shadow-xl p-20 skill-section slide-in">
         <div className="">
           <p className="text-start text-2xl font-bold my-2">

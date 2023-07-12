@@ -21,6 +21,20 @@
   padding-right: 5rem;
 }
 
+@media (max-width: 1050px) {
+  .navbar-name {
+    display: none;
+  }
+  .navbar-item {
+    padding-right: 3rem;
+  }
+
+  .list-item-common-property {
+    display: none;
+  }
+}
+
+
 .list-item-common-property {
   padding: 10px;
   font-size: 1.2rem;
@@ -32,6 +46,5 @@
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.381);
   cursor: pointer;
-  transition-delay: 0s; 
+  transition-delay: 0s;
 }
-

@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 
-export const EducationSection = () => {
+const EducationSection = () => {
   return (
     <>
-      <div className='flex justify-center text-3xl font-bold '>Academic Background</div>
+      <div id='education' className='flex justify-center text-3xl font-bold text-color-black'>Academic Background</div>
       <div className="education-section container mx-auto about-me-section shadow-xl">
         <div className="session-dev slide-in">
           <p className="text-2xl text-center">2018-2022</p>
@@ -95,3 +95,5 @@ export const EducationSection = () => {
     </>
   );
 };
+
+export default EducationSection;

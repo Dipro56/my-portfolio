@@ -49,3 +49,7 @@ body {
     transform: translateX(0);
   }
 }
+
+.text-color-black {
+  color: black;
+}
