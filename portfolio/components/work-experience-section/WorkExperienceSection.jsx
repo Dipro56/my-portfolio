@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-export const WorkExperienceSection = () => {
+const WorkExperienceSection = () => {
   return (
     <div id='experience'>
       <div  className="flex justify-center text-3xl font-bold mt-28 text-color-black">
@@ -9,7 +9,7 @@ export const WorkExperienceSection = () => {
       </div>
       <div  className="work-experience-section container mx-auto about-me-section shadow-xl ">
         <div className="insitution-image-div  slide-in">
-          <Image height={150} width={150} src={'/assets/gakk.jpg'} />
+          <Image height={150} width={150} src={'/assets/gakk.jpg'} alt='img' />
         </div>
         <div className="details-div  slide-in-right">
           <p className="text-3xl text-start ">Software Engineer (Frontend)</p>
@@ -68,7 +68,7 @@ export const WorkExperienceSection = () => {
 
       <div className="work-experience-section container mx-auto about-me-section shadow-xl">
         <div className="insitution-image-div  slide-in ">
-          <Image height={150} width={150} src={'/assets/asthait.jpg'} />
+          <Image height={150} width={150} src={'/assets/asthait.jpg'} alt='img' />
         </div>
         <div className="details-div  slide-in-right">
           <p className="text-3xl text-start ">Software Engineer (Intern)</p>
@@ -109,7 +109,7 @@ export const WorkExperienceSection = () => {
 
       <div className="work-experience-section container mx-auto about-me-section shadow-xl">
         <div className="insitution-image-div  slide-in">
-          <Image height={150} width={150} src={'/assets/ionnolytic.jpg'} />
+          <Image height={150} width={150} src={'/assets/ionnolytic.jpg'} alt='img' />
         </div>
         <div className="details-div ">
           <p className="text-3xl text-start ">Software Engineer (Intern)</p>
@@ -160,3 +160,5 @@ export const WorkExperienceSection = () => {
     </div>
   );
 };
+
+export default WorkExperienceSection;

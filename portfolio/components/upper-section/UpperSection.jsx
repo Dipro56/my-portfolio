@@ -16,6 +16,7 @@ const UpperSection = () => {
           height={200}
           width={200}
           src={'/assets/me.jpg'}
+          alt='img'
         />
       </div>
       <div className="name-profession-section">

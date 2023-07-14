@@ -8,7 +8,6 @@ import '../styles/skill-section.css';
 import '../styles/project-section.css';
 import '../styles/footer.css';
 import Head from 'next/head';
-import Header from '@/components/header/Header';
 
 export default function App({ Component, pageProps }) {
   return (

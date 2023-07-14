@@ -9,7 +9,7 @@ const EducationSection = () => {
         <div className="session-dev slide-in">
           <p className="text-2xl text-center">2018-2022</p>
           <p className="text-3xl font-semibold text-center mt-2">
-            Bachelor's Degree
+            Bachelor&apos;s Degree
           </p>
         </div>
         <div className="details-dev slide-in">
@@ -33,7 +33,7 @@ const EducationSection = () => {
           </ul>
         </div>
         <div className="insitution-image-div ">
-          <Image height={150} width={150} src={'/assets/IUT.png'} />
+          <Image height={150} width={150} src={'/assets/IUT.png'} alt='img' />
         </div>
       </div>
 
@@ -62,7 +62,7 @@ const EducationSection = () => {
           </ul>
         </div>
         <div className="insitution-image-div">
-          <Image height={150} width={150} src={'/assets/ahc.jpg'} />
+          <Image height={150} width={150} src={'/assets/ahc.jpg'} alt='img' />
         </div>
       </div>
 
@@ -89,7 +89,7 @@ const EducationSection = () => {
           </ul>
         </div>
         <div className="insitution-image-div">
-          <Image height={150} width={150} src={'/assets/bcpsc.png'} />
+          <Image height={150} width={150} src={'/assets/bcpsc.png'} alt='img' />
         </div>
       </div>
     </>

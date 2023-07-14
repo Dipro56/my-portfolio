@@ -11,7 +11,7 @@ const ProjectSection = () => {
       >
         Projects
       </div>
-      <div className="container mx-auto project-section">
+      <div className="container mx-auto project-section text-color-black">
         <div className=" lock max-w-lg p-6 bg-white border border-gray-200 rounded-lg shadow-lg">
           <Image
             height={700}
@@ -30,7 +30,7 @@ const ProjectSection = () => {
             users globally.
           </p>
 
-          <p className="font-bold text-xl">
+          <p className="font-bold text-xl text-color-black">
             Technology (Frontend):{' '}
             <span className="font-normal">
               Javascript, Next JS, Redux, Bootstrap, Material UI
@@ -66,7 +66,7 @@ const ProjectSection = () => {
 
           <p className="font-bold text-xl">
             Technology (Frontend):{' '}
-            <span className="font-normal">
+            <span className="font-normal text-color-black">
               Javascript, Next JS, Redux toolkit, Tailwind
             </span>
           </p>
@@ -92,11 +92,11 @@ const ProjectSection = () => {
             Type: <span className="font-normal">Professional</span>
           </h5>
           <p className="font-normal text-xl text-gray-700  py-4">
-            Exclusively made for Shadhin's client Brac Bank and it is integrated
-            in Brac Bank's Astha App.
+            Exclusively made for Shadhin&apos;s client Brac Bank and it is integrated
+            in Brac Bank&apos;s Astha App.
           </p>
 
-          <p className="font-bold text-xl">
+          <p className="font-bold text-xl text-color-black">
             Technology (Frontend):{' '}
             <span className="font-normal">
               Javascript, Next JS, Redux, Bootstrap, Material UI
@@ -127,7 +127,7 @@ const ProjectSection = () => {
             It was one of the evaluation projects during training at Astha IT.
           </p>
 
-          <p className="font-bold text-xl">
+          <p className="font-bold text-xl text-color-black">
             Technology (Frontend):{' '}
             <span className="font-normal">Javascript, Next JS, Bootstrap.</span>
           </p>
@@ -151,7 +151,7 @@ const ProjectSection = () => {
             It was one of the evaluation projects during training at Astha IT.
           </p>
 
-          <p className="font-bold text-xl">
+          <p className="font-bold text-xl text-color-black">
             Technology: <span className="font-normal">C#</span>
           </p>
 
@@ -180,7 +180,7 @@ const ProjectSection = () => {
             FIFA tournament easier. Currently in testing phase.
           </p>
 
-          <p className="font-bold text-xl">
+          <p className="font-bold text-xl text-color-black">
             Technology:{' '}
             <span className="font-normal">
               Typescript, Javascript, Node,Express JS, Mongodb

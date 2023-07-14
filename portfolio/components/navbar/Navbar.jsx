@@ -1,30 +1,31 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
   return (
     <div className="navbar bg-blue-200">
       <div className="lg:text-3xl sm:text-xl font-semibold  navbar-name">
-        <a href='/'>Sadat Shahriar Bari</a>
+        <Link href="/">Sadat Shahriar Bari</Link>
       </div>
       <div className="navbar-item">
         <ul className="navbar-item">
           <li className="list-item-common-property ">
-            <a href="#about">About</a>
+            <Link href="#about">About</Link>
           </li>
           <li className="list-item-common-property">
-            <a href="#education">Education</a>
+            <Link href="#education">Education</Link>
           </li>
           <li className="list-item-common-property">
-            <a href="#experience">Experience</a>
+            <Link href="#experience">Experience</Link>
           </li>
           <li className="list-item-common-property">
-            <a href="#skills">Skills</a>
+            <Link href="#skills">Skills</Link>
           </li>
           <li className="list-item-common-property">
-            <a href="#projects">Projects</a>
+            <Link href="#projects">Projects</Link>
           </li>
           <li className="list-item-common-property">
-            <a href="#extra-curricular">Co-curricular</a>
+            <Link href="#extra-curricular">Co-curricular</Link>
           </li>
         </ul>
       </div>
